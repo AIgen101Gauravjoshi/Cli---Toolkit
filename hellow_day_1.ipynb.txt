@@ -1,0 +1,55 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"gaurav\"\n",
+        "age=15\n",
+        "age1= age\n",
+        "balance= 27.99\n",
+        "old= False\n",
+        "a = None\n",
+        "print(type(balance))\n",
+        "print(type(age1))\n",
+        "print(type(name))\n",
+        "print(type(False))\n",
+        "print(type(a))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SR-r5kjByWQk",
+        "outputId": "ab348f8b-7e2c-41ac-dee9-f57ba084042f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'float'>\n",
+            "<class 'int'>\n",
+            "<class 'str'>\n",
+            "<class 'bool'>\n",
+            "<class 'NoneType'>\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
