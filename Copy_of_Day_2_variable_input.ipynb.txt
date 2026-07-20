@@ -1,0 +1,169 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "# Pehla interactive script\n",
+        "\n",
+        "naam = input(\"Tumhara naam kya hai? \")\n",
+        "print(\"Namaste,\", naam + \"!\")"
+      ],
+      "metadata": {
+        "id": "C9pAQIB_qQ2a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "de54f738-0a45-433f-996c-5533cba02bc3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tumhara naam kya hai? Gaurav\n",
+            "Namaste, Gaurav!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "0HYs3VVJmowS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Poora introduction\n",
+        "\n",
+        "naam = input(\"Naam batao: \")\n",
+        "umar = input(\"Umar batao: \")\n",
+        "Gawn = input(\"Tumhara Gawn kaunsa hai? \")\n",
+        "\n",
+        "print(\"\\n--- Tumhara Parichay ---\")\n",
+        "print(\"Naam:\", naam)\n",
+        "print(\"Umar:\", umar)\n",
+        "print(\"Gawn:\", Gawn )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AxXHMYWGk1y4",
+        "outputId": "eab189df-d84c-402f-c74f-7accdbe35c57"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Naam batao: Gaurav\n",
+            "Umar batao: 15\n",
+            "Tumhara Gawn kaunsa hai? Bagawn\n",
+            "\n",
+            "--- Tumhara Parichay ---\n",
+            "Naam: Gaurav\n",
+            "Umar: 15\n",
+            "Gawn: Bagawn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Input ke saath calculation\n",
+        "\n",
+        "birth_year = input(\"Tumhara janam saal kya hai? \")\n",
+        "birth_year = int(birth_year)  # string ko number mein badlo\n",
+        "current_year = 2026\n",
+        "age = current_year - birth_year\n",
+        "\n",
+        "print(\"Tumhari umar lagbhag\", age, \"hai.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IUgIKNTunpFx",
+        "outputId": "236880eb-5e7b-4c00-fd4f-9dbdb0e3e5b9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tumhara janam saal kya hai? 2012\n",
+            "Tumhari umar lagbhag 14 hai.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Personality Quiz\n",
+        "\n",
+        "print(\"=== MINI PERSONALITY QUIZ ===\\n\")\n",
+        "\n",
+        "naam = input(\"Sabse pehle, tumhara naam kya hai? \")\n",
+        "color = input(naam + \", tumhara favorite color kya hai? \")\n",
+        "food = input(\"Favorite khana? \")\n",
+        "animal = input(\"Kutta ya billi — kaunsa pasand hai? \")\n",
+        "\n",
+        "print(\"\\n--- RESULT ---\")\n",
+        "print(naam + \", tum ek '\" + color + \" \" + animal + \"' type ke insaan ho.\")\n",
+        "print(\"Tumhara spirit animal ek \" + animal + \" hai jo \" + food + \" khata hai.\")\n",
+        "print(\"Quite a combination, \" + naam + \"!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "92hO4SsqozVl",
+        "outputId": "0e0a221d-4bbd-4bad-fca6-768ab67d4131"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=== MINI PERSONALITY QUIZ ===\n",
+            "\n",
+            "Sabse pehle, tumhara naam kya hai? Gaurav\n",
+            "Gaurav, tumhara favorite color kya hai? Saffron\n",
+            "Favorite khana? Aalu ki sabji\n",
+            "Kutta ya billi — kaunsa pasand hai? billi\n",
+            "\n",
+            "--- RESULT ---\n",
+            "Gaurav, tum ek 'Saffron billi' type ke insaan ho.\n",
+            "Tumhara spirit animal ek billi hai jo Aalu ki sabji khata hai.\n",
+            "Quite a combination, Gaurav!\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
